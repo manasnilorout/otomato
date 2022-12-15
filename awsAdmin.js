@@ -18,7 +18,7 @@ const doThis = async () => {
     // await keyboard.type('open -a "Google Chrome"');
     // await keyboard.type(Key.Return);
 
-    const moveMouseToSpecifiedRegionAndClick = async (regionName, timeOut = 5000) => {
+    const moveMouseToSpecifiedRegionAndClick = async (regionName, timeOut = 8000) => {
         const region = await screen.find(imageResource(`${regionName}.png`));
         console.log(`Found region -> ${regionName}`);
         await screen.highlight(region);
