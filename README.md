@@ -1,4 +1,4 @@
-# otomato
+# otomato :tomato:
 **Automate things through GUI**
 
 ## Installation
